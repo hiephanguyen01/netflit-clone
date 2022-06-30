@@ -5,14 +5,14 @@ import { Movie } from "../tyings";
 import requests from "../utils/request";
 
 interface Props {
-  netflixOriginals: Movie[]
-  trendingNow: Movie[]
-  topRated: Movie[]
-  actionMovies: Movie[]
-  comedyMovies: Movie[]
-  horrorMovies: Movie[]
-  romanceMovies: Movie[]
-  documentaries: Movie[]
+  netflixOriginals: Movie[];
+  trendingNow: Movie[];
+  topRated: Movie[];
+  actionMovies: Movie[];
+  comedyMovies: Movie[];
+  horrorMovies: Movie[];
+  romanceMovies: Movie[];
+  documentaries: Movie[];
 }
 
 const Home = ({
@@ -32,8 +32,9 @@ const Home = ({
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
+
       <Banner netflixOriginals={netflixOriginals} />
-s      <main></main>
+      <main></main>
     </div>
   );
 };
